@@ -1,0 +1,140 @@
+.header
+{
+	max-width: 91ch;
+	margin: 2em auto
+}
+
+.main
+{
+	max-width: 52ch
+}
+
+body
+{
+	font: 18px avenir next,sans-serif
+}
+
+body,a
+{
+	background: #fff;
+	color: #000
+}
+
+h1,h2,.blog-name
+{
+	font-size: 143%
+}
+
+h1,h2,h3
+{
+	margin: 2em 0 4%
+}
+
+.small-space
+{
+	margin: 0 0 2em
+}
+
+.big-space
+{
+	margin: 0 0 7em
+}
+
+a
+{
+	text-decoration: none;
+	border-bottom: 2px solid #ff4500
+}
+
+.no-border,a:hover
+{
+	border: 0
+}
+
+a:hover,.gray,blockquote
+{
+	opacity: .7
+}
+
+div
+{
+	margin: 0 auto
+}
+
+hr,.no-display
+{
+	display: none
+}
+
+p,li,.s
+{
+	line-height: 1.8
+}
+
+h1,h2,h3,strong
+{
+	font-weight: 600
+}
+
+img,.caption,.footer
+{
+	margin: auto;
+	height: auto;
+	max-width: 99%;
+	display: block;
+	text-align: center
+}
+
+.footnote-ref,.footnote-back
+{
+	border: 0;
+	line-height: .5;
+	padding: 0 2px
+}
+
+.footnotes
+{
+	margin: 4em 0 0 8%;
+	border-top: 1px dotted
+}
+
+li
+{
+	margin-left: -3%
+}
+
+blockquote
+{
+	margin: 6% 0;
+	padding: 0 3%;
+	border-left: 3px solid #ff4500
+}
+
+.date
+{
+	position: relative;
+	top: 3em
+}
+
+.caption,.footer,.footnotes,.small
+{
+	font-size: 81%
+}
+
+@media(prefers-color-scheme:dark)
+{
+	body,a
+	{
+		color: #bbb;
+		background: #222
+	}
+
+	a
+	{
+		border-bottom: 1px solid #ff4500
+	}
+    
+    blockquote
+{
+		border-left: 2px solid #ff4500
+}

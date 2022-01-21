@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">{{> head}}
+
+<body>{{> header}}
+    <div class="main">
+        <h1>Archive&nbsp;▾&nbsp;({{all_entries.length}})</h1>
+        {{#all_tags}}
+<span class="s"><a href="/tagged/{{slug}}">{{tag}}</a></span>・
+{{/all_tags}}<p>🔎&nbsp;<a href="/search">Search this site</a></p>
+        <div class="big-space">{{#archives}} {{#months}}
+            <h2>{{month}}&nbsp;{{year}}</h2>{{#entries}}
+            <p><a class="no-border" href="{{{url}}}">{{title}}</a></p>{{/entries}} {{/months}}{{/archives}}</div>{{> footer}}</div>
+</body>
+
+</html>

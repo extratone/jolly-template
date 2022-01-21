@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">{{> head}}
+
+<body>{{> header}}
+    <div class="main">
+        <h1 class="no-display">Search — {{title}}</h1>
+                <h2><a class="no-border" href="/archives">Archive&nbsp;▾</a></h2>
+{{#all_tags}}
+<span class="s"><a href="/tagged/{{slug}}">{{tag}}</a></span>・
+{{/all_tags}}
+        <p>
+            <form action="/search" class="s"><input placeholder="Type, then press Enter" value="{{#query}}{{query}}{{/query}}" name="q" id="search" type="text"></form>
+        </p>
+        <h2>{{#entries}} {{#first}} {{#last}} Search: {{entries.length}} result {{/last}} {{^last}} Search: {{entries.length}} results {{/last}} {{/first}} {{/entries}} {{^entries}} {{#query}} Search: no results ☹️ {{/query}} {{/entries}}</h2>
+        <p>
+            <div>
+                <p>{{#entries}}
+                    <p><a href="{{{url}}}">{{title}}</a></p>{{/entries}}</p>
+            </div>
+            <div class="big-space">{{#archives}} {{#months}}
+                <h2>{{month}}&nbsp;{{year}}</h2>{{#entries}}
+                <p><a class="no-border" href="{{{url}}}">{{title}}</a></p>{{/entries}} {{/months}}{{/archives}}</div>{{> footer}}</div>
+    <script type="text/javascript">
+        var search=document.getElementById("search");search.focus()
+    </script>
+</body>
+
+</html>

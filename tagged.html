@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">{{> head}}
+
+<body>{{> header}}
+    <div class="main">
+        <h1 class="no-display">{{tag}} — {{title}}</h1>
+        <h2><a class="no-border" href="/archives">Archive&nbsp;▾</a></h2>
+       {{#all_tags}}
+<span class="s"><a href="/tagged/{{slug}}">{{tag}}</a></span>・
+{{/all_tags}}<p>🔎&nbsp;<a href="/search">Search this site</a></p>
+        <h2><a class="no-border" href="/archives">{{tag}}&nbsp;▾</a>&nbsp;({{entries.length}})</h2>
+        <div class="big-space">{{#entries}}
+            <p><a href="{{{url}}}">{{title}}</a></p>{{/entries}}</div>{{> footer}}</div>
+</body>
+
+</html>
