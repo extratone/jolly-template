@@ -4,6 +4,8 @@ A template for [Blot](https://blot.im), **minimal**, **light** and **fast**, mad
 
 These are the files of the template that I called Jolly, after my own website **[The Jolly Teapot](https://thejollyteapot.com)**, on which this template is based. If you are a Blot user, you can directly access it using [this link](https://blot.im/settings/template/share/94ba33c2-fd82-491d-b0dd-55d0b561d07d).
 
+
+
 ### Good things about this template:
 - **small footprint**: the CSS file is less than 1kb, and the uncompressed size of the homepage should be around 8kb.
 - it uses system fonts, no script, no nonsense.
@@ -15,6 +17,10 @@ These are the files of the template that I called Jolly, after my own website **
 - you will need to know your way around CSS and HTML if you plan to adapt the design to your likings (like the main font, the highlight colour, the spacing, etc.), or add things like comments or analytics.
 - it is very minimal, so be warned: maybe try [other feature-rich templates](https://blot.im/templates).
 - **Most of Blot optional services will not work with this template**: again, it will require direct HTML/CSS modifications to make some options works: this includes zoom on images, TeX support, etc.
+
+
+<img width="1065" alt="Preview 1" src="https://user-images.githubusercontent.com/98179484/150581191-9818f83c-d7f8-4b54-a6b4-1d112ef7a06f.png">
+<img width="1069" alt="Preview 2" src="https://user-images.githubusercontent.com/98179484/150581194-4ea623fc-9c5a-4d3c-9b9a-819d5c5bdcac.png">
 
 ### Notes:
 - For the summary on the homepage, you will need to add a _summary_ metadata reference on your Blot entry.
