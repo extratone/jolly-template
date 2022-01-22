@@ -6,8 +6,8 @@
         <h1 class="no-display">{{title}}: {{description}}</h1>
         <div class="big-space">{{#entries}}
             <div class="gray small date">{{#date}}{{date}}{{/date}}</div>
-            <h2><a class="no-border" href="{{{url}}}">{{title}}</a></h2>
-            <p class="small-space"><a class="small-space no-border" href="{{{url}}}" title="{{title}}">{{{summary}}}&nbsp;→</a></p>{{/entries}}</div>{{#pagination}}
+            <a class="colored" href="{{{url}}}"><h2>{{title}}</h2>
+                <p class="small-space">{{{summary}}}&nbsp;→</p></a>{{/entries}}</div>{{#pagination}}
         <div class="big-space">
             <p class="gray small">PAGE {{current}} OF {{total}}</p>{{#previous}}<a href="/page/{{previous}}">⇠&nbsp;Newer posts</a>&nbsp; &nbsp;{{/previous}} {{#next}}<a href="/page/{{next}}">Older posts&nbsp;⇢</a>{{/next}}</div>{{/pagination}} {{> footer}}</div>
 </body>
