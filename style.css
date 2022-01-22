@@ -46,6 +46,11 @@ a
 	border-bottom: 2px solid #ff4500
 }
 
+a.colored:hover
+{
+	color:#ff4500
+}
+
 .no-border,a:hover
 {
 	border: 0
@@ -71,7 +76,7 @@ p,li,.s
 	line-height: 1.8
 }
 
-h1,h2,h3,strong
+h1,h2,h3,.blog-name
 {
 	font-weight: 600
 }
