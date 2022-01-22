@@ -4,9 +4,10 @@
 <body>{{> header}}
     <div class="main">
         <div class="big-space">
-            <div class="big-space">{{#entry}} {{#date}}
-                <div class="gray date small">{{date}}</div>{{/date}} {{{html}}}</div>{{#previous}}
-            <p class="gray small">PREVIOUSLY</p><a href="{{{url}}}">{{title}}</a>{{/previous}}{{/entry}}</div>{{> footer}}</div>
+           {{#entry}} {{#date}}
+                <div class="gray date small">{{date}}</div>{{/date}} {{{html}}}</div>
+        <div class="big-space">{{#previous}}
+            <p class="gray small">PREVIOUSLY</p><a href="{{{url}}}">{{title}}</a>{{/previous}}</div>{{/entry}}</div>{{> footer}}
 </body>
 
 </html>
