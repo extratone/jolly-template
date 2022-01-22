@@ -7,7 +7,7 @@ These are the files of the template that I called Jolly, after my own website **
 
 
 ### Good things about this template:
-- **small footprint**: the CSS file is less than 1kb, and the uncompressed size of the homepage should be around 8kb.
+- **small footprint**: the CSS file is around 1.5kb (uncompressed), and the uncompressed size of the homepage should be less than 8kb. (for 10 entries)
 - it uses system fonts, no script, no nonsense.
 - it has an **automatic dark mode**
 - it should work just fine "out of the box."
