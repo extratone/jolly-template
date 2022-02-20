@@ -14,7 +14,7 @@ These are the files of the template that I called Jolly, after my own website **
 
 ### Bad things about this template:
 - it may not be the easiest to manage, so if you plan to tweak around and customise it a lot, you might discover that some things are not really "best practice."
-- you will need to know your way around CSS and HTML if you plan to adapt the design to your likings (like the main font, the highlight colour, the spacing, etc.), or add things like comments or analytics.
+- you will need to know your way around CSS and HTML if you plan to adapt the design to your likings (like the main font, the highlight colour, the spacing, etc.), or add things like comments, webmentions, or analytics.
 - it is very minimal, so be warned: maybe try [other feature-rich templates](https://blot.im/templates).
 - **Most of Blot optional services will not work with this template**: again, it will require direct HTML/CSS modifications to make some options works: this includes zoom on images, TeX support, etc.
 
