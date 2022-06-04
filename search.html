@@ -1,28 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">{{> head}}
+<!DOCTYPE html><html lang="en">{{> head}}<div>{{> header}}<h1>Archive</h1><p>
 
-<body>{{> header}}
-    <div class="main">
-        <h1 class="no-display">Search — {{title}}</h1>
-                <h2><a class="no-border" href="/archives">Archive&nbsp;▾</a></h2>
 {{#all_tags}}
 <span class="s"><a href="/tagged/{{slug}}">{{tag}}</a></span>・
 {{/all_tags}}
-        <p>
-            <form action="/search" class="s"><input placeholder="Type, then press Enter" value="{{#query}}{{query}}{{/query}}" name="q" id="search" type="text"></form>
-        </p>
-        <h2>{{#entries}} {{#first}} {{#last}} Search: {{entries.length}} result {{/last}} {{^last}} Search: {{entries.length}} results {{/last}} {{/first}} {{/entries}} {{^entries}} {{#query}} Search: no results ☹️ {{/query}} {{/entries}}</h2>
-        <p>
-            <div>
-                <p>{{#entries}}
-                    <p><a href="{{{url}}}">{{title}}</a></p>{{/entries}}</p>
-            </div>
-            <div class="big-space">{{#archives}} {{#months}}
-                <h2>{{month}}&nbsp;{{year}}</h2>{{#entries}}
-                <p><a class="no-border" href="{{{url}}}">{{title}}</a></p>{{/entries}} {{/months}}{{/archives}}</div>{{> footer}}</div>
-    <script type="text/javascript">
-        var search=document.getElementById("search");search.focus()
-    </script>
-</body>
 
-</html>
+<a href="/archives">ALL&nbsp;CATEGORIES</a></p><p><form action="/search"><input placeholder="Type, then press Enter" value="{{#query}}{{query}}{{/query}}" name="q" id="search" type="text"> <a style="border:0" href="/archives">✕</a></form></p><h1>{{#entries}}{{#first}}{{#last}}Search: {{entries.length}} result {{/last}} {{^last}} Search: {{entries.length}} results {{/last}} {{/first}} {{/entries}} {{^entries}} {{#query}} Search: no results {{/query}} {{/entries}}</h1>{{#entries}}<p><a href="{{{url}}}">{{title}}</a></p>{{/entries}}{{#archives}}{{#months}}<h2>{{month}}&nbsp;{{year}}</h2><div>{{#entries}}<p><a style="border:0" href="{{{url}}}">{{title}}</a></p>{{/entries}}{{/months}}{{/archives}}<hr>↑&nbsp;<a href="{{URL}}">Back to top</a><script type="text/javascript">var search=document.getElementById("search");search.focus()</script></div></html>
