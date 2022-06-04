@@ -1,15 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">{{> head}}
+<!DOCTYPE html><html lang="en">{{> head}}<div>{{> header}}<h1>Archive&nbsp;({{all_entries.length}})</h1><p>
 
-<body>{{> header}}
-    <div class="main">
-        <h1>Archive&nbsp;▾&nbsp;({{all_entries.length}})</h1>
-        {{#all_tags}}
+{{#all_tags}}
 <span class="s"><a href="/tagged/{{slug}}">{{tag}}</a></span>・
-{{/all_tags}}<p>🔎&nbsp;<a href="/search">Search this site</a></p>
-        <div class="big-space">{{#archives}} {{#months}}
-            <h2>{{month}}&nbsp;{{year}}</h2>{{#entries}}
-            <p><a class="no-border" href="{{{url}}}">{{title}}</a></p>{{/entries}} {{/months}}{{/archives}}</div>{{> footer}}</div>
-</body>
+{{/all_tags}}
 
-</html>
+<a href="/archives">ALL&nbsp;CATEGORIES</a></p><p>🔎&nbsp;<a href="/search">Search this site</a></p>{{#archives}} {{#months}}<h2>{{month}}&nbsp;{{year}}</h2><div>{{#entries}}<p><a style="border:0" href="{{{url}}}">{{title}}</a></p>{{/entries}} {{/months}}{{/archives}}<hr>↑&nbsp;<a href="{{URL}}">Back to top</a></div></html>
