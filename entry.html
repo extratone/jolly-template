@@ -1,13 +1,1 @@
-<!DOCTYPE html>
-<html lang="en">{{> head}}
-
-<body>{{> header}}
-    <div class="main">
-        <div class="big-space">
-           {{#entry}} {{#date}}
-                <div class="gray date small">{{date}}</div>{{/date}} {{{html}}}</div>
-        <div class="big-space">{{#previous}}
-            <p class="gray small">PREVIOUSLY</p><a class="s" href="{{{url}}}">{{title}}</a>{{/previous}}</div>{{/entry}}</div>{{> footer}}
-</body>
-
-</html>
+<!DOCTYPE html><html lang="en">{{> head}}<div>{{> header}}{{#entry}}{{{html}}}</div>{{#date}}<div><em>Published on {{date}}</em><hr>←&nbsp;<a href="/">Recent entries</a>{{/date}}{{/entry}}</div></html>
