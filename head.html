@@ -7,16 +7,19 @@
   <meta property="og:url" content="{{{blogURL}}}">
   <meta property="og:type" content="website">
 
-<!-- these below are the things that needs to be updated: links to favicons, etc. -->
+<!-- these below are the things that needs to be eventually updated: links to favicons, etc. -->
+ {{#entry}}
+ {{#thumbnail.large}}
+ <meta property="og:image" content="{{{url}}}">
+ {{/thumbnail.large}}
+ {{/entry}}
+ {{#avatar}}<link rel="apple-touch-icon" href="{{{avatar}}}">
+ <link rel="icon" href="{{{avatar}}}" sizes="16x16" type="image/png">
+ <link rel="mask-icon" href="{{{avatar}}}" type="image/x-icon">{{/avatar}}">
 
-  <link rel="apple-touch-icon" href="">
-  <link rel="icon" href="" sizes="16x16" type="image/png">
-  <meta property="og:image" content="">
-  <link rel="mask-icon" href="" color="#ff4500">
+<!-- below you shoudl be good -->
 
-<!-- now you're good -->
-
-  <meta property="og:title" content="{{> title}}">
-  <link rel="alternate" type="application/rss+xml" title="RSS Feed - {{title}}" href="{{{blogURL}}}{{{feedURL}}}">
+ <meta property="og:title" content="{{> title}}">
+ <link rel="alternate" type="application/rss+xml" title="RSS Feed - {{title}}" href="{{{blogURL}}}{{{feedURL}}}">
 
 </head>
