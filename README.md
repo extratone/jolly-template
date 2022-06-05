@@ -8,7 +8,7 @@ These are the files of the template that I called Jolly, after my own website **
 - **small footprint**: the CSS file is around 500b (uncompressed), and the uncompressed size of the homepage should be less than 5kb. (for 10 entries)
 - it uses system fonts, no script, no nonsense.
 - it has an **automatic dark mode**
-- it should work just fine "out of the box.,": you should only have to choose your accent color in the style.css view of the template. If not, dig into the code to customise a few more things.
+- it should work just fine "out of the box": you should only have to choose your accent color in the style.css view of the template. If not, dig into the code to customise a few more things.
 
 ### Bad things about this template:
 - it may not be the easiest to manage, so if you plan to tweak around and customise it a lot, you might discover that some things are not really "best practice."
