@@ -5,7 +5,7 @@ A template for [Blot](https://blot.im), **minimal**, **light** and **fast**, mad
 These are the files of the template that I called Jolly, after my own website **[The Jolly Teapot](https://thejollyteapot.com)**, on which this template is based. If you are a Blot user, you can directly access it using [this link](https://blot.im/settings/template/share/2b97e53f-3809-42f2-bd68-28c6d2294c4d).
 
 ### Good things about this template:
-- **small footprint**: the CSS file is around 600b (uncompressed), and the uncompressed size of the homepage should be less than 6kb. (for 10 entries)
+- **small footprint**: the CSS file is around 600b (uncompressed), and the uncompressed size of the homepage should be less than 5kb. (for 10 entries)
 - it uses system fonts, no script, no nonsense.
 - it has an **automatic dark mode**
 - it should work just fine "out of the box": you should only have to choose your accent colour in the style.css view of the template. If not, dig into the code to customise a few more things.
