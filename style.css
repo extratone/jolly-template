@@ -4,4 +4,4 @@
 
 /* you're done */
 
-div{margin:0 auto 5pc;max-width:52ch;font:110%/1.7 ui-sans-serif,sans-serif}*{color:#000;background:#fff;text-decoration:none}a{border-bottom:solid var(--ac)}h1,h2,hr{font:800 142% "hiragino sans",verdana,sans-serif;margin:5pc 0 1pc}blockquote{border-left:solid var(--ac);margin:0;padding:0 1em}sup{line-height:0}img{width:99%;height:auto;display:block;margin:2em auto}.caption{font-size:82%;margin:-2em auto 2em;display:block;text-align:center}@media(prefers-color-scheme:dark){*{color:#ddd;background:#222}}
+div{margin:0 auto 5pc;max-width:52ch;font:110%/1.7 ui-sans-serif,sans-serif}*{color:#000;background:#fff;text-decoration:none}a{border-bottom:solid var(--ac)}h1,h2,hr{font:800 142% "hiragino sans",verdana,sans-serif;margin:5pc 0 1ch}blockquote{border-left:solid var(--ac);margin:0;padding:0 1em}sup{line-height:0}img{width:99%;height:auto;display:block;margin:2em auto}.caption{font-size:82%;margin:-2em auto 2em;display:block;text-align:center}@media(prefers-color-scheme:dark){*{color:#ddd;background:#222}}
